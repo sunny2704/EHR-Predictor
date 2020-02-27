@@ -1,0 +1,3 @@
+# EHR-Predictor
+Electronic Health Record Predictor to help predict common words to help doctors record the patient conversation faster
+EHRs must be noted for every patient doctor interaction. We are trying to help the doctors save time and focus more on the patients by predicting generic texts constructed on bag of words from our training dataset from historical EHR records. As an extension, modeled on entered text and conditional probability, we would suggest the most probable disease and medication for the patient. We used the Softmax activation function under deep learning architecture and achieved an accuracy of 55% since the generic words are less in number and due to computation constraints.
